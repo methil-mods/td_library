@@ -1,9 +1,12 @@
-# Chroma abreation
+# Chromatic Aberration
 
-This effect allow chromatic aberation on video or image by difracting R and B channels.
+This effect applies chromatic aberration to video or images by diffracting the Red and Blue channels.
 
-It offer a ramp that control where the effect is applied.
+## Features
 
-The ramp can be replace by any displace. This could be very usefull. It can create aberated gost using blurred cached frame or things like that.
+- **Ramp Control**: Includes a ramp to control where the effect is applied.
+- **Flexible Displacement**: The ramp can be replaced by any displacement map for more complex effects, such as aberrated "ghosts" using blurred cached frames.
 
-plus the ABERATION IS FUN.
+## Usage
+
+Connect your image or video input and adjust the aberration parameters and displacement map.

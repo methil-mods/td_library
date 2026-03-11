@@ -1,14 +1,11 @@
 # Dithering
 
-Dither or dithering is an intentionally applied form of noise used to randomize quantization error, preventing large-scale patterns such as color banding in images. Dither is routinely used in processing of both digital audio and video data, and is often one of the last stages of mastering audio to a CD.
+Dithering is an intentionally applied form of noise used to randomize quantization error, preventing patterns like color banding. This component provides a way to apply dithering effects to images or video in TouchDesigner.
 
-A common use of dither is converting a grayscale image to black and white, so that the density of black dots in the new image approximates the average gray level in the original.
+## Usage
 
+- **Tone/Color Input**: Plug in the base image.
+- **Matrix Input**: Plug in an 8x8 matrix as a table.
+- **Parameters**: Adjust pixel size and other controls.
 
-## Usage of the effect
-
-Plug both tone (color), the image, the 8x8 matrice as a table, and the pixel size.
-
-You can play with the matrice to have differents patterns, exemple can be found in the `datas` folder.
-There is also the possibilty to play with the input image to mask background, increase contrast or anything that could
-enhance dithering look.
+You can experiment with different matrices in the `datas` folder to achieve various patterns.
